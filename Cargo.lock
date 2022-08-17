@@ -47,6 +47,7 @@ name = "libclipboard"
 version = "0.2.0"
 dependencies = [
  "clipboard",
+ "once_cell",
 ]
 
 [[package]]
@@ -95,6 +96,12 @@ checksum = "c92d4ddb4bd7b50d730c215ff871754d0da6b2178849f8a2a2ab69712d0c073b"
 dependencies = [
  "objc",
 ]
+
+[[package]]
+name = "once_cell"
+version = "1.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1"
 
 [[package]]
 name = "winapi"
